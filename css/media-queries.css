@@ -27,6 +27,9 @@
 @media screen and (max-width: 500px){
     .alert-info {
         font-size: 1em;
+        background-color: #CCFFFF;
+        border: 1px solid #CCC;
+        padding: 10px;
     }
     .row.p {
         flex-wrap: wrap;
@@ -34,6 +37,10 @@
     .container.footer {
         justify-content: end;
         min-height: 125px;
+    }
+    a.mainSkip {
+        color: black;
+        text-decoration: none;
     }
 
 }
