@@ -20,6 +20,10 @@
     max-width: 750px;
 }
 
+.container.footer {
+    min-height: 100px;
+}
+
 @media screen and (max-width: 500px){
     .alert-info {
         font-size: 1em;
