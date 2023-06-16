@@ -1,7 +1,30 @@
-ul {
-    display: flex;
-    width: 100%;
+
+
+.nav-links{
     list-style: none;
-    justify-content: space-between;
+    margin: 45px;
+    padding: 0;
+    justify-items: end;
 }
+
+.alert-info {
+    font-size: 0;
+
+}
+
+.header-img img {
+    width: 100%;
+}
+
+.column.c1 {
+    max-width: 750px;
+}
+
+@media screen and (max-width: 500px){
+    .alert-info {
+        font-size: 1em;
+    }
+}
+
+
 
