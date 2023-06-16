@@ -28,6 +28,14 @@
     .alert-info {
         font-size: 1em;
     }
+    .row.p {
+        flex-wrap: wrap;
+    }
+    .container.footer {
+        justify-content: end;
+        min-height: 125px;
+    }
+
 }
 
 
